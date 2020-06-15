@@ -1,24 +1,15 @@
 import React from 'react';
-import Blog from './Blog';
+// import Blog from './Blog';
+import Produk from '../Class/Produk';
 
 const Home = () => {
     return <div>
-    <Blog
-        tanggal="02 juni 2020"
-        judul="Teknologi Blockchain"
-        summary="Generate Lorem Ipsum placeholder text for use in your graphic."
-    />
-    <Blog
-        tanggal="03 juni 2020"
-        judul="Teknologi Internet of Things"
-        summary="Generate Lorem Ipsum placeholder text for use in your graphic."
-    />
-    <Blog
-        tanggal="04 juni 2020"
-        judul="Design Pattern Laravel"
-        summary="Generate Lorem Ipsum placeholder text for use in your graphic."
-    />
-
+    <Produk nama="Macbook Pro 2020" stock="10" harga="33000000"/>
+    <Produk nama="Macbook Pro 2021" stock="15" harga="43000000"/>
+    <Produk nama="Macbook Pro 2022" stock="14" harga="53000000"/>
+    <Produk nama="Macbook Pro 2023" stock="50" harga="63000000"/>
+    <Produk nama="Macbook Pro 2024" stock="100" harga="73000000"/>
+    <Produk nama="Macbook Pro 2025" stock="108" harga="83000000"/>
     </div>
 }
 
