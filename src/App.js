@@ -4,7 +4,8 @@ import NavbarComp from './Component/Fungsional/NavbarComp';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import HomePage from './Component/Fungsional/HomePage';
 import AboutComp from './Component/Fungsional/AboutComp';
-import DetailComp from './Component/Fungsional/DetailComp';
+// import DetailComp from './Component/Fungsional/DetailComp';
+import ListComp from './Component/Class/ListComp';
 
 // import logo from './logo.svg';
 // import Home from './Component/Fungsional/Home';
@@ -18,7 +19,9 @@ const App = () => {
       <Switch>
         <Route exact path="/" component={HomePage} />
         <Route exact path="/about" component={AboutComp} />
-        <Route exact path="/detail/:id" component={DetailComp} />
+        <Route exact path="/mahasiswa" component={ListComp} />
+        
+        {/* <Route exact path="/detail/:id" component={DetailComp} /> */}
       </Switch>
     </BrowserRouter>
 
